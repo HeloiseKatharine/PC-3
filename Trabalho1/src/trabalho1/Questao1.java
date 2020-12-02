@@ -12,7 +12,6 @@ import java.util.List;
  */
 public class Questao1 {
     public static void main(String[] args) {
-        
         List lista = new ArrayList(); //lista de tamanho indeterminado 
         int i;
         
