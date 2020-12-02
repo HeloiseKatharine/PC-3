@@ -25,17 +25,17 @@ public class Questao5 {
         lista.add("String 2");
         lista.add("String 3");
         
-         System.out.println("Lista: ");
-        for(int i=0; i<lista.size(); i++){
+        System.out.println("Lista: ");
+        /*for(int i=0; i<lista.size(); i++){
             System.out.println(lista.get(i));
         }
         
         System.out.println("Lista Ordenada: ");
-        
         Collections.sort(lista);
+        
         for(int i=0; i<lista.size(); i++){
             System.out.println(lista.get(i));
-        }
+        }*/
     }
 }
 
