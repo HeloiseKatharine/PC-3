@@ -31,8 +31,8 @@ public class Questao3 {
         /*Lista não ordenada*/
         //Collections.shuffle(lista);
         
-        
-        Collections.reverse(lista);
+        /*Collections.reverse(lista);*/
+        Collections.shuffle(lista);
         
         System.out.println("Lista invertida");
          for(int i=0; i<lista.size(); i++){
