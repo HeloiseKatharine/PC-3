@@ -16,6 +16,7 @@ public class Questao7 {
     public static void main(String[] args) {
         
     Set<String> lista = new HashSet<>();
+    
     lista.add("String 1");
     lista.add("String 1");
     
