@@ -5,7 +5,6 @@ numeral como chave, percorra todos os elementos e imprima (System.out.println())
 package trabalho1;
 
 import java.util.HashMap;
-import java.util.Hashtable;
 import java.util.Map;
 
 /**
