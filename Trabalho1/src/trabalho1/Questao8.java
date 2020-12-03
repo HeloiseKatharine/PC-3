@@ -4,6 +4,7 @@ numeral como chave, percorra todos os elementos e imprima (System.out.println())
  */
 package trabalho1;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
@@ -14,7 +15,7 @@ import java.util.Map;
 public class Questao8 {
     public static void main(String[] args) {
         
-        Map<Integer, String> map1 = new Hashtable<Integer, String>();
+        Map<Integer, String> map1 = new HashMap<Integer, String>();
         
         //Adcionando elementos 
         
