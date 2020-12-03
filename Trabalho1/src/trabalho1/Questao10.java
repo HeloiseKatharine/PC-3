@@ -24,17 +24,19 @@ public class Questao10 {
         lista.add(100);
         lista.add(200);
         
-        Double soma = 0.0;
+        
+        Integer soma = 0;
+        Integer num = 0;
         
         Iterator<Integer> iterator = lista.iterator();
 
         while (iterator.hasNext()){
-            System.out.println(iterator.next());
-            soma = iterator.next() + soma;
+            num = iterator.next();
+            soma = num + soma;
         }
-        
+                
         float tam = lista.size();
-        Double media = soma/tam;
+        float media = soma/tam;
         System.out.println(media);
      }
 }
