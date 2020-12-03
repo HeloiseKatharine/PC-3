@@ -32,7 +32,7 @@ public class Questao9 {
             soma = x + soma;
         }
         float tam = lista.size();
-         media = soma/tam;
-         System.out.println(media);
+        media = soma/tam;
+        System.out.println(media);
     }
 }
