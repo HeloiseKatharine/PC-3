@@ -16,7 +16,13 @@ public class Aluno {
         Integer rg;
         String dataDeNascimento;
 
-
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 37 * hash + Objects.hashCode(this.rg);
+        return hash;
+    }
+ 
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
