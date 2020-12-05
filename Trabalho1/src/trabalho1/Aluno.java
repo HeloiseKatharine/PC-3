@@ -65,4 +65,10 @@ public class Aluno {
     public void setDataDeNascimento(String dataDeNascimento) {
         this.dataDeNascimento = dataDeNascimento;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" + "nome=" + nome + ", rg=" + rg + ", dataDeNascimento=" + dataDeNascimento + '}';
+    }
+    
 }
