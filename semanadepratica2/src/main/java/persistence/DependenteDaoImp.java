@@ -3,12 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package persistence;/*
-import java.util.List;
+package persistence;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
-import util.HibernateUtil;*/
+import util.HibernateUtil;
 import java.util.List;
 import javax.management.Query;
 import model.Dependente;
