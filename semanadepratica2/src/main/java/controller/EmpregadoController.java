@@ -19,9 +19,9 @@ public class EmpregadoController {
         ed.incluir(empregado);
     }
 
-    public void excluir(Empregado veiculo) {
+    public void excluir(Empregado empregado) {
         EmpregadoDaoImp ed = new EmpregadoDaoImp();
-        ed.excluir(veiculo);
+        ed.excluir(empregado);
     }
 
     public Empregado buscarPeloCPF(String cpf) {
